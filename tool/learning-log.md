@@ -43,8 +43,27 @@ animate(chars, {
 });
 ```
 
-  
+### 11/08/26
 
+I tried an example of Anime.js coding for a shape:
+
+```
+const { animate } = anime;
+
+animte('.shape', {
+translateX: 250,
+duration: 1500,
+esae: 'inOutQuad',
+loop: true,
+alternate: true
+}); 
+
+```
+<p> This created the shapte to move horzontally by 1.5 seconds. </p>
+<p> the duration is in milliseconds. </p>
+<p> ease: 'inOutQuad' makes the shape start off slowly then speed up and then slows down at the end</p>
+<p> loop: true, repeats the animation on a loop </p>
+<p> alternate: true, this makes the animation shape switch directions everytime it repeats</p>
 
 <!-- 
 * Links you used today (websites, videos, etc)
